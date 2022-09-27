@@ -1,0 +1,283 @@
+/* Body */
+
+body {
+    margin: auto;
+}
+
+main>div {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    grid-gap: 20px;
+    margin: 50px;
+    margin-top: 80px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    background-color: #546173;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgba(84, 97, 115, 0.75);
+}
+
+/* Article */
+article {
+    border: solid;
+    border-width: 2px;
+    border-color: #546173;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Navbar */
+nav {
+    background-color: #546173;
+    height: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    vertical-align: middle;
+
+}
+
+/* Links inside Navbar */
+
+nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    vertical-align: middle;
+
+}
+
+#profile-button img {
+    height: 50px;
+    width: auto;
+}
+
+#profile-button {
+    float: right;
+    padding: 10px;
+    padding-right: 80px;
+
+}
+
+#profile-button:hover {
+    background-color: transparent;
+}
+
+#profile-button img:hover {
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+
+/* Links inside Navbar */
+
+nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: #546173
+}
+
+
+/* Left column */
+
+/* Profile */
+
+.profile img {
+    width: 175px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile li {
+    padding: 8px;
+}
+
+/* Highlights */
+.highlights {
+    padding: 0px;
+    background-color: #868e9c;
+    color: white;
+}
+
+
+.highlights a {
+    color: white;
+}
+
+.highlights li {
+    padding: 12px;
+    text-align: center;
+}
+
+.highlights li:hover {
+    background-color: rgba(237, 240, 245, .60);
+    border-radius: 8px;
+}
+
+/* Interests */
+
+.interests li {
+    border: solid;
+    padding: 8px;
+    margin: 5px;
+    display: inline-flex;
+    color: white;
+}
+
+li.tag-major {
+    background-color: #31476b;
+}
+
+li.tag-minor {
+    background-color: #728cba;
+}
+
+li.tag-tangential {
+    background-color: #e4e8f0;
+    color: black;
+    border-color: #e4e8f0;
+}
+
+/* Middle Column */
+
+/* Add a Post */
+
+.new-post {
+    text-align: center;
+}
+
+textarea {
+    border-radius: 8px;
+    height: 50px;
+    padding: 10px;
+    max-width: 600px;
+}
+
+
+/* Post */
+
+
+.avatar img {
+    width: 80px;
+}
+
+.author {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+
+.time-since-published {
+    color: #848a94;
+    float: right
+}
+
+.post-buttons button {
+    margin: 5px;
+}
+
+
+/* Right Column */
+
+/* Friends */
+
+.friend-request {
+    text-align: center;
+}
+
+.friend-request img {
+    width: 70px;
+}
+
+.friend-request a {
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.friend-request-buttons {
+    padding: 10px;
+}
+
+.accept-button {
+    background-color: rgba(89, 148, 60, 0.75);
+}
+
+.accept-button:hover {
+    background-color: rgba(89, 148, 60);
+}
+
+.reject-button {
+    background-color: rgba(199, 73, 73, 0.75);
+}
+
+.reject-button:hover {
+    background-color: rgba(199, 73, 73);
+}
+
+/* Ads */
+
+.placeholder {
+    text-align: center;
+    background-color: #ddded1;
+}
+
+/* Footer */
+
+Footer {
+    background-color: #546173;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
